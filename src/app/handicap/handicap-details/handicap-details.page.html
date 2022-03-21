@@ -1,0 +1,29 @@
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/sport"></ion-back-button>
+        </ion-buttons>
+        <ion-title>{{currentHandicap.name}}</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card>
+        <ion-item>
+            <ion-img [src]="currentHandicap.handicapImage"></ion-img>
+        </ion-item>
+        <ion-card-header>
+            <ion-card-title>{{currentHandicap.name}}</ion-card-title>
+        </ion-card-header>
+        <h2 class="center"> Descriptif de l'arbre
+        </h2>
+        <ion-card-content>
+            {{currentHandicap.discription}}
+        </ion-card-content>
+        <h2 class="center"> Histoire de l'arbre
+        </h2>
+        <ion-card-content>
+            {{currentHandicap.historique}}
+        </ion-card-content>
+    </ion-card>
+</ion-content>

@@ -1,5 +1,7 @@
 {
   "name": "front-user-app",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
