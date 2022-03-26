@@ -21,7 +21,6 @@ export class TreePage implements OnInit {
       .subscribe({
         next: (data) => {
           this.trees = data;
-          console.log(data);
         },
         error: (e) => console.error(e)
       });

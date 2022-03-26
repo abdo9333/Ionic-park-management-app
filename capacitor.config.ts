@@ -4,7 +4,8 @@ const config: CapacitorConfig = {
   appId: 'com.frontend-user',
   appName: 'front-user-app',
   webDir: 'www',
-  bundledWebRuntime: false
+  bundledWebRuntime: false,
+
 };
 
 export default config;

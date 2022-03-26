@@ -30,7 +30,6 @@ export class TreeDetailsPage implements OnInit {
       .subscribe({
         next: (data) => {
           this.currentTree = data;
-          console.log(data);
         },
         error: (e) => console.error(e)
       });

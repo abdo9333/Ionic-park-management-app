@@ -20,7 +20,6 @@ export class HandicapPage implements OnInit {
     .subscribe({
       next: (data) => {
         this.handicap = data;
-        console.log(data);
       },
       error: (e) => console.error(e)
     });

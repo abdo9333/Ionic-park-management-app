@@ -21,7 +21,6 @@ export class BirdPage implements OnInit {
       .subscribe({
         next: (data) => {
           this.bird = data;
-          console.log(data);
         },
         error: (e) => console.error(e)
       });

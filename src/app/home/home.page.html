@@ -7,13 +7,18 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-    <ion-header collapse="condense">
-        <ion-toolbar>
-            <ion-title size="large">Blank!!</ion-title>
-        </ion-toolbar>
-    </ion-header>
+    <ion-content [fullscreen]="true">
+        <ion-card>
+            <ion-button color="danger" (click)="scanBRcode()" expand="block">
+                Scan Barcode
+            </ion-button>
+        </ion-card>
 
-    <div id="container">
-        <strong>Ready to create an app?</strong>
-    </div>
-</ion-content>
+        <ion-card>
+            <div *ngIf="scannedBarCode">
+                <ion-item (click)="openLink(scannedBarCode['text'] ) ">
+                    Scanned code output: <strong>{{ scannedBarCode["text "] }}</strong>
+                </ion-item>
+            </div>
+        </ion-card>
+    </ion-content>

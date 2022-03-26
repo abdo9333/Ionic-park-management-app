@@ -11,8 +11,6 @@ import { BirdService } from 'src/app/services/bird.service';
 })
 export class BirdDetailsPage implements OnInit {
 
-  LoadBird: Bird;
-
   @Input() currentBird: Bird = {
     name: '',
     discription: '',
@@ -29,7 +27,6 @@ export class BirdDetailsPage implements OnInit {
       .subscribe({
         next: (data) => {
           this.currentBird = data;
-          console.log(data);
         },
         error: (e) => console.error(e)
       });

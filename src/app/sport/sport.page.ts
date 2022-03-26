@@ -21,7 +21,6 @@ export class SportPage implements OnInit {
       .subscribe({
         next: (data) => {
           this.sport = data;
-          console.log(data);
         },
         error: (e) => console.error(e)
       });

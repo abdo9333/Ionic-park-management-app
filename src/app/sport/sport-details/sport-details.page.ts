@@ -28,7 +28,6 @@ export class SportDetailsPage implements OnInit {
       .subscribe({
         next: (data) => {
           this.currentSport = data;
-          console.log(data);
         },
         error: (e) => console.error(e)
       });
