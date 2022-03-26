@@ -26,3 +26,62 @@ ion-content {
 #container a {
     text-decoration: none;
 }
+
+.icon-cam {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 11px;
+}
+
+.cam {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.cam_continer {
+    box-shadow: rgb(14 30 37 / 12%) 0px 2px 4px 0px, rgb(14 30 37 / 32%) 0px 2px 16px 0px;
+}
+
+.list-no-border {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+
+.nameClass {
+    width: 90%;
+    height: 100px;
+    padding-bottom: 31px;
+    background-position: top;
+    margin-bottom: 20px;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+}
+
+.img1 {
+    background-image: url('../../assets/icon/tile_running_watch.png');
+    background-position: bottom;
+}
+
+.imgfamily {
+    background-image: url('../../assets/icon/family.png');
+    background-position: center;
+}
+
+.img_usages {
+    background-image: url('../../assets/icon/usages.png');
+    background-position: left;
+}
+
+.img_hand {
+    background-image: url('../../assets/icon/handicap.png');
+    background-position: top;
+}
+
+.title-cards {
+    left: 71%;
+    font-weight: 600;
+    font-size: 22px;
+    top: 4px;
+}
