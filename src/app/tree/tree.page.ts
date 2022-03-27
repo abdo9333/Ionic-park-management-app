@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 import { Tree } from './tree.model';
 import { TreeService } from '../services/tree.service';
@@ -11,7 +12,7 @@ export class TreePage implements OnInit {
 
   trees?: Tree[];
 
-  constructor(private treeService: TreeService) { }
+  constructor(private treeService: TreeService,  private route: Router) { }
 
   ngOnInit() {
     this.getAllTrees();
@@ -24,6 +25,10 @@ export class TreePage implements OnInit {
         },
         error: (e) => console.error(e)
       });
+  }
+
+  buttonClick(){
+    this.route.navigate(['/bird']);
   }
 
 }

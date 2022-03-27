@@ -3,11 +3,11 @@ import { BarcodeScanner, BarcodeScannerOptions } from '@ionic-native/barcode-sca
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: 'home.page.html',
-  styleUrls: ['home.page.scss'],
+  selector: 'app-accueil',
+  templateUrl: './accueil.page.html',
+  styleUrls: ['./accueil.page.scss'],
 })
-export class HomePage {
+export class AccueilPage {
 
   encodedData: any;
   scannedBarCode: any;

@@ -41,13 +41,17 @@ ion-content {
 }
 
 .cam_continer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
     box-shadow: rgb(14 30 37 / 12%) 0px 2px 4px 0px, rgb(14 30 37 / 32%) 0px 2px 16px 0px;
 }
 
-.list-no-border {
+.container_list {
     display: flex;
-    flex-wrap: wrap-reverse;
-    justify-content: center;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 5%;
 }
 
 .nameClass {
@@ -80,7 +84,7 @@ ion-content {
 }
 
 .title-cards {
-    left: 71%;
+    left: 60%;
     font-weight: 600;
     font-size: 22px;
     top: 4px;

@@ -23,11 +23,15 @@
         </ion-card>
         <div class="list-no-border">
             <!--nearby places-->
-            <ion-item class="nameClass img1">
 
-                <ion-card-title class="title-cards">Sport</ion-card-title>
+
+            <ion-item class="nameClass img1" button (click)="buttonClick()">
+
+                <ion-card-title button (click)="buttonClick()" class="title-cards">Sport</ion-card-title>
             </ion-item>
-            <ion-item class="nameClass imgfamily">
+
+
+            <ion-item class="nameClass imgfamily" href="https://www.ionicframework.com">
 
                 <ion-card-title class="title-cards">Familly</ion-card-title>
             </ion-item>
@@ -41,6 +45,7 @@
             </ion-item>
 
         </div>
+        <ion-button [routerLink]="['/tree']">Go to detail</ion-button>
     </ion-content>
 
     <ion-tabs>
