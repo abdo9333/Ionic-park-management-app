@@ -7,14 +7,14 @@
 <ion-content>
     <ion-card>
         <ion-button color="danger" (click)="scanBRcode()" expand="block">
-            Scan Barcode
+            Scanner un QR code
         </ion-button>
     </ion-card>
 
     <ion-card>
         <div *ngIf="scannedBarCode">
             <ion-item (click)="openLink(scannedBarCode['text'] ) ">
-                Scanned code output: <strong>{{ scannedBarCode["text "] }}</strong>
+                Veuillez cliquer ici pour afficher le contenu scanné <strong>{{ scannedBarCode["text "] }}</strong>
             </ion-item>
         </div>
     </ion-card>
@@ -38,5 +38,6 @@
             <ion-card-title class="title-cards">handicap</ion-card-title>
         </ion-item>
     </div>
+    <div #map id="map"></div>
 
 </ion-content>
