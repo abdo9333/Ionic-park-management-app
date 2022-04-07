@@ -9,25 +9,17 @@
 - List of all the elements exists in each path.
 - Connexions to our Nest API to fetch data
 
----
 
-```
 
-<img src="/home.jpg" /> 
+
 ![Alt text](/home.jpg?raw=true "Title")
 
 
-###########
----
 
-```
 
 <img src="img/listing.jpg" alt="CRUD usage" />
 
-########
----
 
-```
 
 <img src="/item.jpg" />
  
