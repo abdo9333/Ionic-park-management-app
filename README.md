@@ -13,7 +13,7 @@
 
 ```
 
-<img src="/home.jpg" /> 
+<img src="home.jpg" /> 
 
 
 
@@ -27,5 +27,5 @@
 
 ```
 
-<img src="/item.jpg" />
+<img src="item.jpg" />
  
