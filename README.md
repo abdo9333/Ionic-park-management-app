@@ -11,16 +11,6 @@
 ---
 
 ```
-Hello
-World
-```
-
-Hello
-World
-
----
-
-```
 
 <img src="img/connexion_page.jpg" alt="CRUD usage" />
  
