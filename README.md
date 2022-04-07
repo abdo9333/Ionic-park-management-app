@@ -13,7 +13,8 @@
 
 ```
 
-<img src="img/home.jpg" alt="CRUD usage" /> 
+<img src="img/home.jpg" /> 
+
 
 
 ---
@@ -26,5 +27,5 @@
 
 ```
 
-<img src="img/item.jpg" alt="CRUD usage" />
+<img src="img/item.jpg" />
  
