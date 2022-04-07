@@ -1,6 +1,6 @@
 ﻿# IONIC APP 
  
- L’application mobile permettra d’accompagner les visiteurs tout au long des sentiers thématiques (Sports, family,  de l’Université de Limoges.
+ The mobile application will accompany visitors along the thematic trails (Sports, Trees/plants, Birds) of the University of Limoges.
  
 ## Features
 
