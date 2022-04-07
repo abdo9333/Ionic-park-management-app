@@ -1,16 +1,29 @@
-﻿# Front-user-app
+﻿# IONIC APP 
  
  L’application mobile permettra d’accompagner les visiteurs tout au long des sentiers thématiques (Sports, family,  de l’Université de Limoges.
  
 ## Features
 
--QR code scnner which allows to open an element in a path
--Mapping to locate trails
--List of all the elements exists in each path
+- QR code scnner which allows to open an element in a path
+- Mapping to locate trails
+- List of all the elements exists in each path.
+- Connexions to our Nest API to fetch data
 
 ---
 
 ```
 
-<img src="img/connexion_page.jpg" alt="CRUD usage" />
+<img src="img/home.jpg" alt="CRUD usage" />
+
+---
+
+```
+
+<img src="img/listing.jpg" alt="CRUD usage" />
+
+---
+
+```
+
+<img src="img/item.jpg" alt="CRUD usage" />
  
